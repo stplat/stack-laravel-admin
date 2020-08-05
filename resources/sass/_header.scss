@@ -2,6 +2,8 @@
 .header {
   background: #FFFFFF;
   box-shadow: $box-shadow-block;
+  position: sticky;
+  top: 0;
 }
 
 .header__top {

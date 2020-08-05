@@ -1,7 +1,6 @@
 @include('layouts._head')
 
 <body>
-
 @include('layouts._aside')
 <div class="app__content" id="content-slide">
   @include('layouts._header')
