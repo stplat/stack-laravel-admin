@@ -24,5 +24,11 @@
   </div>
   <div class="header__bottom">
     <div class="header__title"><h3>{!! $title ?? '' !!}</h3></div>
+    <div class="header__breadcrumbs">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item"><a href="/">Главная</a></li>
+        <li class="breadcrumbs-item">{!! $title ?? '' !!}</li>
+      </ul>
+    </div>
   </div>
 </div>
