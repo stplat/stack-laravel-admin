@@ -1,12 +1,12 @@
-@include('layouts._head')
+@include('admin.layouts._head')
 
 <body>
-@include('layouts._aside')
+@include('admin.layouts._aside')
 <div class="app__content" id="content-slide">
-  @include('layouts._header')
+  @include('admin.layouts._header')
   <main class="app__main" id="app" @auth v-cloak @endauth>
     @yield('content')
   </main>
 </div>
 
-@include('layouts._footer')
+@include('admin.layouts._footer')

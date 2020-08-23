@@ -15,16 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth')->group(function () {
 
-  Route::get('/', 'Admin\IndexController@index')->name('index');
+  Route::get('/admin', 'Admin\IndexController@index')->name('index');
 
 });
 
+Route::get('/admin/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/admin/login', 'Auth\LoginController@login')->name('login');
+Route::post('/admin/logout', 'Auth\LoginController@logout')->name('logout');
 
-Auth::routes([
-  'register' => false,
-  'confirm' => false,
-  'email' => false,
-  'request' => false,
-  'update' => false,
-  'reset' => false,
-]);
+
+//Auth::routes([
+//  'register' => false,
+//  'confirm' => false,
+//  'email' => false,
+//  'request' => false,
+//  'update' => false,
+//  'reset' => false,
+//]);

@@ -1,4 +1,4 @@
-@extends('layouts.auth', ['title' => 'Вход в систему'])
+@extends('admin.layouts.auth', ['title' => 'Вход в систему'])
 
 @section('content')
   <div class="auth">
