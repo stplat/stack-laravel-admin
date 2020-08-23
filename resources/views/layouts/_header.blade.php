@@ -8,7 +8,7 @@
       </button>
     </div>
     <div class="header__login">
-      <img src="{{ asset('images/admin_avatar.png') }}" alt="" id="login">
+      <img src="{{ asset('images/admin/admin_avatar.png') }}" alt="" id="login">
       <div class="login-dropdown" id="login-dropdown">
         <ul>
           <li class="login-dropdown__item">

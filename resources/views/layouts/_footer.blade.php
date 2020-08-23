@@ -1,5 +1,5 @@
-{{--<script src="{{ asset('js/manifest.js') }}"></script>--}}
-{{--<script src="{{ asset('js/vendor.js') }}"></script>--}}
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/admin/manifest.js') }}"></script>
+<script src="{{ asset('js/admin/vendor.js') }}"></script>
+<script src="{{ asset('js/admin/app.js') }}"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <div class="auth">
     <div class="auth__wrap">
       <div class="auth__logo">
-        <img src="{{ asset('images/logo.png') }}" alt="">
+        <img src="{{ asset('images/admin/logo.png') }}" alt="">
       </div>
       <div class="auth__entry">
         <div class="card c-shadow">
